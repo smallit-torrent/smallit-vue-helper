@@ -1,0 +1,19 @@
+{
+  "Data Search Snippet": {
+    "prefix": 
+      [
+        "data-search",
+        "search:data"
+      ],
+    "body": [
+      "<data-search",
+      "  v-model:code=\"$1\"",
+      "  v-model:name=\"\"",
+      "  v-bind=\"\"",
+      "  clearable",
+      "  @select=\"\"",
+      "/>"
+    ],
+    "description": "Vue.js data search component"
+  }
+}

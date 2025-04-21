@@ -1,0 +1,18 @@
+{
+  "User Autocomplete Snippet": {
+    "prefix": [
+      "user-autocomplete"
+    ],
+    "body": [
+      "<user-autocomplete",
+      "  v-model=\"$1\"",
+      "  v-model:name=\"\"",
+      "  :validStatusOnly=\"\"",
+      "  :disabled=\"\"",
+      "  clearable",
+      "  @select=\"\"",
+      "/>"
+    ],
+    "description": "Vue.js user autocomplete component"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "Data Checkbox Snippet": {
+    "prefix": [
+      "data-checkbox",
+      "checkbox:data"
+    ],
+    "body": [
+      "<data-checkbox",
+      "  v-model=\"$1\"",
+      "  url=\"\"",
+      "  :option-info=\"\"",
+      "  sort-key=\"\"",
+      "  @change=\"\"",
+      "/>"
+    ],
+    "description": "Vue.js data checkbox component"
+  },
+  "Data Checkbox Dict Snippet": {
+    "prefix": [
+      "data-checkbox-dict",
+      "checkbox:dict"
+    ],
+    "body": [
+      "<data-checkbox-dict",
+      "  v-model=\"$1\"",
+      "  :params=\"\"",
+      "  sort-key=\"\"",
+      "  @change=\"\"",
+      "/>"
+    ],
+    "description": "Vue.js data checkbox dictionary component"
+  }
+}

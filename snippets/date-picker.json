@@ -1,0 +1,59 @@
+{
+  "Date Picker Snippet": {
+    "prefix": [
+      "date-picker"
+    ],
+    "body": [
+      "<date-picker v-model=\"$1\"></date-picker>"
+    ],
+    "description": "Vue.js date picker component"
+  },
+  "Date Time Picker Snippet": {
+    "prefix": [
+      "date-time-picker"
+    ],
+    "body": [
+      "<date-time-picker v-model=\"$1\"></date-time-picker>"
+    ],
+    "description": "Vue.js date time picker component"
+  },
+  "Date Time Picker Snippet No Seconds": {
+    "prefix": [
+      "date-time-picker:no-seconds"
+    ],
+    "body": [
+      "<date-time-picker v-model=\"$1\" no-seconds></date-time-picker>"
+    ],
+    "description": "Vue.js date time picker component without seconds"
+  },
+  "Month Picker Snippet": {
+    "prefix": [
+      "month-picker",
+      "date-picker:month only"
+    ],
+    "body": [
+      "<month-picker v-model=\"$1\"></month-picker>"
+    ],
+    "description": "Vue.js month picker component"
+  },
+  "Time Picker Snippet": {
+    "prefix": [
+      "time-picker",
+      "date-picker:time only"
+    ],
+    "body": [
+      "<time-picker v-model=\"$1\"></time-picker>"
+    ],
+    "description": "Vue.js time picker component"
+  },
+  "Time Picker Snippet No Seconds": {
+    "prefix": [
+      "time-picker-no-seconds",
+      "date-picker:time only without seconds"
+    ],
+    "body": [
+      "<time-picker v-model=\"$1\" no-seconds></time-picker>"
+    ],
+    "description": "Vue.js time picker component without seconds"
+  }
+}

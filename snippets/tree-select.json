@@ -1,0 +1,12 @@
+{
+  "Tree Select Snippet": {
+    "prefix": [
+      "tree-select",
+      "select:tree"
+    ],
+    "body": [
+      "<tree-select v-model=\"$1\" :tree-data=\"\" placeholder=\"\"></tree-select>"
+    ],
+    "description": "Vue.js tree select component"
+  }
+}

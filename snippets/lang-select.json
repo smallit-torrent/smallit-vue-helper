@@ -1,0 +1,11 @@
+{
+  "Lang Select Snippet": {
+    "prefix": [
+      "lang-select"
+    ],
+    "body": [
+      "<LangSelect />"
+    ],
+    "description": "Vue.js language select component"
+  }
+}

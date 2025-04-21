@@ -1,0 +1,26 @@
+{
+  "Toggle Switch Snippet": {
+    "prefix": [
+      "toggle-switch",
+      "switch:toggle"
+    ],
+    "body": [
+      "<toggle-switch v-model=\"$1\"></toggle-switch>"
+    ],
+    "description": "Vue.js toggle switch component"
+  },
+  "Toggle Switch With Text Snippet": {
+    "prefix": [
+      "toggle-switch-with-text",
+      "switch:toggle-with-text"
+    ],
+    "body": [
+      "<toggle-switch",
+      "  v-model=\"$1\"",
+      "  active-text=\"\"",
+      "  inactive-text=\"\"",
+      "></toggle-switch>"
+    ],
+    "description": "Vue.js toggle switch component with text"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "al-box-primary Snippet": {
+    "prefix": [
+      "al-box-primary",
+      "al-box:blue"
+    ],
+    "body": [
+      "<al-box-primary>",
+      "  $1",
+      "</al-box-primary>"
+    ],
+    "description": "A box element with primary style"
+  },
+  "al-box-success Snippet": {
+    "prefix": [
+      "al-box-success",
+      "al-box:green"
+    ],
+    "body": [
+      "<al-box-success>",
+      "  $1",
+      "</al-box-success>"
+    ],
+    "description": "A box element with success style"
+  },
+  "al-box-warning Snippet": {
+    "prefix": [
+      "al-box-warning",
+      "al-box:orange"
+    ],
+    "body": [
+      "<al-box-warning>",
+      "  $1",
+      "</al-box-warning>"
+    ],
+    "description": "A box element with warning style"
+  },
+  "al-box-danger Snippet": {
+    "prefix": [
+      "al-box-danger",
+      "al-box:red"
+    ],
+    "body": [
+      "<al-box-danger>",
+      "  $1",
+      "</al-box-danger>"
+    ],
+    "description": "A box element with danger style"
+  }
+}

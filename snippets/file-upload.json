@@ -1,0 +1,34 @@
+{
+  "File Drop Area Snippet": {
+    "prefix": [
+      "file-drop-area",
+      "file-upload:drop-area"
+    ],
+    "body": [
+      "<file-drop-area v-model=\"$1\"",
+      "  :accept=\"[]\"",
+      "  :multiple=\"\"",
+      "  max-file-size=\"\"",
+      "  max-total-size=\"\"",
+      "></file-drop-area>"
+    ],
+    "description": "Vue.js file drop area component"
+  },
+  "Import Dialog Snippet": {
+    "prefix": [
+      "import-dialog",
+      "file-upload:import-dialog"
+    ],
+    "body": [
+      "<import-dialog",
+      "  url='$1'",
+      "  title=''",
+      "  :modelValue=\"\"",
+      "  :accept=\"[]\"",
+      "  :multiple=\"\"",
+      "  @close=\"\"",
+      "/>"
+    ],
+    "description": "Vue.js import dialog component"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Data Radio Snippet": {
+    "prefix": [
+      "data-radio",
+      "radio:data"
+    ],
+    "body": [
+      "<data-radio",
+      "  v-model=\"$1\"",
+      "  url=\"\"",
+      "  :option-info=\"\"",
+      "  sort-key=\"\"",
+      "  :clearable=\"\"",
+      "  clear-button-label=\"\"",
+      "  @change=\"\"",
+      "/>"
+    ],
+    "description": "Vue.js data radio component"
+  },
+  "Data Radio Dict Snippet": {
+    "prefix": [
+      "data-radio-dict",
+      "radio:dict"
+    ],
+    "body": [
+      "<data-radio-dict",
+      "  v-model=\"\"",
+      "  :params=\"\"",
+      "  sort-key=\"\"",
+      "  @change=\"\"",
+      "/>"
+    ],
+    "description": "Vue.js data radio dictionary component"
+  }
+}

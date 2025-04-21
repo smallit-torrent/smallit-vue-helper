@@ -1,0 +1,17 @@
+{
+  "Transfer List Snippet": {
+    "prefix": [
+      "transfer-list",
+      "list:transfer"
+    ],
+    "body": [
+      "<transfer-list",
+      "  v-model=\"$1\"",
+      "  :list-data=\"\"",
+      "  left-title=\"\"",
+      "  right-title=\"\"",
+      "></transfer-list>"
+    ],
+    "description": "Vue.js transfer list component"
+  }
+}

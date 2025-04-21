@@ -1,0 +1,85 @@
+{
+  "Number Input Snippet": {
+    "prefix": [
+      "number-input",
+      "input:number"
+    ],
+    "body": [
+      "<number-input v-model=\"$1\" placeholder=\"\" clearable @change=\"\">",
+      "  <template #prepend></template>",
+      "  <template #append></template>",
+      "</number-input>"
+    ],
+    "description": "Vue.js number input component with prepend and append templates"
+  },
+  "Tel Fax Input Snippet": {
+    "prefix": [
+      "tel-fax-input",
+      "input:tel",
+      "input:fax",
+      "input:phone-number",
+      "phone-number-input"
+    ],
+    "body": [
+      "<el-form-item label=\"$1\" ref=\"\">",
+      "  <tel-fax-input",
+      "    ref=\"\"",
+      "    v-model:bango1-value=\"\"",
+      "    v-model:bango2-value=\"\"",
+      "    v-model:bango3-value=\"\"",
+      "    bango1-prop=\"\"",
+      "    bango2-prop=\"\"",
+      "    bango3-prop=\"\"",
+      "  >",
+      "  </tel-fax-input>",
+      "</el-form-item>"
+    ],
+    "description": "Vue.js form item with tel-fax input component"
+  },
+  "Text Area Snippet": {
+    "prefix": [
+      "text-area",
+      "input:text-area"
+    ],
+    "body": [
+      "<text-area v-model=\"$1\"",
+      "  :rows=\"\"",
+      "  :maxlength=\"\"",
+      "></text-area>"
+    ],
+    "description": "Vue.js text area component"
+  },
+  "Text Input Snippet": {
+    "prefix": [
+      "text-input",
+      "input:text"
+    ],
+    "body": [
+      "<text-input v-model=\"$1\"></text-input>"
+    ],
+    "description": "Vue.js text input component"
+  },
+  "Zip Code Input Snippet": {
+    "prefix": [
+      "zip-code-input",
+      "input:zip-code"
+    ],
+    "body": [
+      "<zip-code-input",
+      "  v-model=\"\"",
+      "  v-model:address=\"\"",
+      "  clearable",
+      "  @change=\"\"",
+      "  @address-data-change=\"\"",
+      ">",
+      "  <template #prefix>",
+      "    <el-icon><Location /></el-icon>",
+      "  </template>",
+      "  <template #suffix>",
+      "    <el-icon><Search /></el-icon>",
+      "  </template>",
+      "</zip-code-input>"
+    ],
+    "description": "Vue.js zip code input component with address and custom icons"
+  }
+}

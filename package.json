@@ -1,0 +1,119 @@
+{
+  "name": "smallit-vue-helper",
+  "displayName": "Smallit Vue Helper",
+  "description": "Helps with file transfer tasks in Vue",
+  "version": "0.0.1",
+  "keywords": [
+    "smallit",
+    "torrent"
+  ],
+  "icon": "icon/icon.png",
+  "publisher": "Smallit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smallit-torrent/smallit-vue-helper"
+  },
+  "contributors": [
+    "shoketsu-han-smallit (https://github.com/shoketsu-han-smallit)"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": "https://github.com/smallit-torrent/smallit-vue-helper/issues",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "activationEvents": [
+    "onLanguage:vue"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "vue",
+        "aliases": ["VUE", "vue"],
+        "extensions": [".vue"]
+      }
+    ],
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/al-box.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/button.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/data-select.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/date-picker.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/tree-select.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/data-search.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/lang-select.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/transfer-list.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/user-autocomplete.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/icon.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/checkbox.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/radio.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/toggle-switch.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/input.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/file-upload.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/pagination.json"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.99.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "eslint": "^9.23.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}

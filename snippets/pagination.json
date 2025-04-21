@@ -1,0 +1,27 @@
+{
+  "Pagination Import Snippet": {
+    "prefix": [
+      "pagination-import",
+      "import:pagination"
+    ],
+    "body": [
+      "import Pagination from '~/pagination/index.vue'",
+      "import paginationHandlerMixin from '@/mixin/PaginationHandler'"
+    ],
+    "description": "Import statements for Pagination component and pagination handler mixin"
+  },
+  "Pagination Snippet": {
+    "prefix": [
+      "pagination"
+    ],
+    "body": [
+      "<Pagination",
+      "  @size-change=\"\"",
+      "  @current-change=\"\"",
+      "  :pagination=\"\"",
+      "  class=\"\"",
+      "/>"
+    ],
+    "description": "Vue.js pagination component"
+  }
+}

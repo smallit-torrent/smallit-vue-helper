@@ -1,0 +1,35 @@
+{
+  "Data Select Snippet": {
+    "prefix": [
+      "data-select",
+      "select:data"
+    ],
+    "body": [
+      "<data-select",
+      "  v-model=\"$1\"",
+      "  url=\"\"",
+      "  :option-info=\"\"",
+      "  sort-key=\"\"",
+      "  clearable",
+      "  @change=\"\"",
+      "/>"
+    ],
+    "description": "Vue.js data select component"
+  },
+  "Data Select Dict Snippet": {
+    "prefix": [
+      "data-select-dict",
+      "select:data-dict"
+    ],
+    "body": [
+      "<data-select-dict",
+      "  v-model=\"$1\"",
+      "  :params=\"\"",
+      "  sort-key=\"\"",
+      "  clearable",
+      "  @change=\"\"",
+      "/>"
+    ],
+    "description": "Vue.js data select dictionary component"
+  }
+}
