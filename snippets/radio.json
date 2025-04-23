@@ -2,7 +2,8 @@
   "Data Radio Snippet": {
     "prefix": [
       "data-radio",
-      "radio:data"
+      "radio:data",
+      "to-data-radio"
     ],
     "body": [
       "<data-radio",
@@ -20,7 +21,8 @@
   "Data Radio Dict Snippet": {
     "prefix": [
       "data-radio-dict",
-      "radio:dict"
+      "radio:dict",
+      "to-data-radio-dict"
     ],
     "body": [
       "<data-radio-dict",

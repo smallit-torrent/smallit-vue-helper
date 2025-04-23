@@ -1,3 +1,10 @@
-node_modules
+# Node.js モジュール（依存ファイル）
+node_modules/
+
+# VSCode拡張のテストフォルダ
 .vscode-test/
+
+# VSIX 拡張ファイル（パッケージ出力）
 *.vsix
+
+# 一時ファイル、環境固有ファイル（必要に応じて）

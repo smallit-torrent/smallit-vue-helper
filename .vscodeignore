@@ -1,10 +1,20 @@
+# 開発用設定ファイルを除外
 .vscode/**
 .vscode-test/**
+**/.vscode-test.*
+
+# テスト・デモ・不要ファイル
 test/**
+**/*.map
+**/jsconfig.json
+**/eslint.config.mjs
+vsc-extension-quickstart.md
+
+# プロジェクト管理・無視設定ファイル
 .gitignore
 .yarnrc
-vsc-extension-quickstart.md
-**/jsconfig.json
-**/*.map
-**/eslint.config.mjs
-**/.vscode-test.*
+
+# Nodeモジュール（.vsixに含める必要なし）
+node_modules/
+
+# その他除外したいファイルがあればここに追加

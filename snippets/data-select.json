@@ -2,7 +2,8 @@
   "Data Select Snippet": {
     "prefix": [
       "data-select",
-      "select:data"
+      "select:data",
+      "to-data-select"
     ],
     "body": [
       "<data-select",
@@ -19,7 +20,8 @@
   "Data Select Dict Snippet": {
     "prefix": [
       "data-select-dict",
-      "select:data-dict"
+      "select:data-dict",
+      "to-data-select-dict"
     ],
     "body": [
       "<data-select-dict",

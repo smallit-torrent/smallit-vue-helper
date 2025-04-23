@@ -2,7 +2,7 @@
   "name": "smallit-vue-helper",
   "displayName": "Smallit Vue Helper",
   "description": "Helps with file transfer tasks in Vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "smallit",
     "torrent"
@@ -14,10 +14,15 @@
     "url": "https://github.com/smallit-torrent/smallit-vue-helper"
   },
   "contributors": [
-    "shoketsu-han-smallit (https://github.com/shoketsu-han-smallit)"
+    {
+      "name": "shoketsu-han-smallit",
+      "url": "https://github.com/shoketsu-han-smallit"
+    }
   ],
-  "license": "SEE LICENSE IN LICENSE",
-  "bugs": "https://github.com/smallit-torrent/smallit-vue-helper/issues",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallit-torrent/smallit-vue-helper/issues"
+  },
   "engines": {
     "vscode": "^1.99.0"
   },
@@ -25,15 +30,25 @@
     "Snippets"
   ],
   "activationEvents": [
-    "onLanguage:vue"
+    "onLanguage:vue",
+    "onLanguage:vue-html",
+    "onLanguage:html",
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:css"
   ],
   "main": "./extension.js",
   "contributes": {
     "languages": [
       {
         "id": "vue",
-        "aliases": ["VUE", "vue"],
-        "extensions": [".vue"]
+        "aliases": [
+          "VUE",
+          "vue"
+        ],
+        "extensions": [
+          ".vue"
+        ]
       }
     ],
     "snippets": [
@@ -42,11 +57,119 @@
         "path": "./snippets/al-box.json"
       },
       {
+        "language": "vue-html",
+        "path": "./snippets/al-box.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/al-box.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/al-box.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/al-box.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/al-box.json"
+      },
+      {
         "language": "vue",
         "path": "./snippets/button.json"
       },
       {
+        "language": "vue-html",
+        "path": "./snippets/button.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/button.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/button.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/button.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/button.json"
+      },
+      {
         "language": "vue",
+        "path": "./snippets/checkbox.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/checkbox.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/checkbox.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/checkbox.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/checkbox.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/checkbox.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/data-search.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/data-search.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/data-search.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/data-search.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/data-search.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/data-search.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/data-select.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/data-select.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/data-select.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/data-select.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/data-select.json"
+      },
+      {
+        "language": "css",
         "path": "./snippets/data-select.json"
       },
       {
@@ -54,35 +177,167 @@
         "path": "./snippets/date-picker.json"
       },
       {
-        "language": "vue",
-        "path": "./snippets/tree-select.json"
+        "language": "vue-html",
+        "path": "./snippets/date-picker.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/date-picker.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/date-picker.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/date-picker.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/date-picker.json"
       },
       {
         "language": "vue",
-        "path": "./snippets/data-search.json"
+        "path": "./snippets/file-upload.json"
       },
       {
-        "language": "vue",
-        "path": "./snippets/lang-select.json"
+        "language": "vue-html",
+        "path": "./snippets/file-upload.json"
       },
       {
-        "language": "vue",
-        "path": "./snippets/transfer-list.json"
+        "language": "html",
+        "path": "./snippets/file-upload.json"
       },
       {
-        "language": "vue",
-        "path": "./snippets/user-autocomplete.json"
+        "language": "javascript",
+        "path": "./snippets/file-upload.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/file-upload.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/file-upload.json"
       },
       {
         "language": "vue",
         "path": "./snippets/icon.json"
       },
       {
-        "language": "vue",
-        "path": "./snippets/checkbox.json"
+        "language": "vue-html",
+        "path": "./snippets/icon.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/icon.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/icon.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/icon.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/icon.json"
       },
       {
         "language": "vue",
+        "path": "./snippets/input.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/input.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/input.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/input.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/input.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/input.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/lang-select.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/lang-select.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/lang-select.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/lang-select.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/lang-select.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/lang-select.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/pagination.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/pagination.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/pagination.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/pagination.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/pagination.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/pagination.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/radio.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/radio.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/radio.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/radio.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/radio.json"
+      },
+      {
+        "language": "css",
         "path": "./snippets/radio.json"
       },
       {
@@ -90,30 +345,103 @@
         "path": "./snippets/toggle-switch.json"
       },
       {
-        "language": "vue",
-        "path": "./snippets/input.json"
+        "language": "vue-html",
+        "path": "./snippets/toggle-switch.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/toggle-switch.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/toggle-switch.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/toggle-switch.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/toggle-switch.json"
       },
       {
         "language": "vue",
-        "path": "./snippets/file-upload.json"
+        "path": "./snippets/transfer-list.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/transfer-list.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/transfer-list.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/transfer-list.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/transfer-list.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/transfer-list.json"
       },
       {
         "language": "vue",
-        "path": "./snippets/pagination.json"
+        "path": "./snippets/tree-select.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/tree-select.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/tree-select.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/tree-select.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/tree-select.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/tree-select.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/user-autocomplete.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/user-autocomplete.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/user-autocomplete.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/user-autocomplete.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/user-autocomplete.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/user-autocomplete.json"
       }
     ]
   },
   "scripts": {
-    "lint": "eslint .",
-    "pretest": "npm run lint",
-    "test": "vscode-test"
+    "update-snippets": "node update-snippets.js",
+    "generate-snippet-list": "node generate-snippet-list.js",
+    "build": "npm run update-snippets && npm run generate-snippet-list && vsce package"
   },
-  "devDependencies": {
-    "@types/vscode": "^1.99.0",
-    "@types/mocha": "^10.0.10",
-    "@types/node": "20.x",
-    "eslint": "^9.23.0",
-    "@vscode/test-cli": "^0.0.10",
-    "@vscode/test-electron": "^2.4.1"
-  }
+  "devDependencies": {}
 }

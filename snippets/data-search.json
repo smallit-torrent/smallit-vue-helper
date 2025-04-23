@@ -3,7 +3,8 @@
     "prefix": 
       [
         "data-search",
-        "search:data"
+        "search:data",
+        "to-data-search"
       ],
     "body": [
       "<data-search",

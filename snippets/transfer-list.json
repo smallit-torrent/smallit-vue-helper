@@ -2,7 +2,8 @@
   "Transfer List Snippet": {
     "prefix": [
       "transfer-list",
-      "list:transfer"
+      "list:transfer",
+      "to-transfer-list"
     ],
     "body": [
       "<transfer-list",

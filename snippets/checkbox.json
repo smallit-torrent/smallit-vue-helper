@@ -2,7 +2,8 @@
   "Data Checkbox Snippet": {
     "prefix": [
       "data-checkbox",
-      "checkbox:data"
+      "checkbox:data",
+      "to-data-checkbox"
     ],
     "body": [
       "<data-checkbox",
@@ -18,7 +19,8 @@
   "Data Checkbox Dict Snippet": {
     "prefix": [
       "data-checkbox-dict",
-      "checkbox:dict"
+      "checkbox:dict",
+      "to-data-checkbox-dict"
     ],
     "body": [
       "<data-checkbox-dict",

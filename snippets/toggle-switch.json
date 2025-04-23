@@ -2,7 +2,8 @@
   "Toggle Switch Snippet": {
     "prefix": [
       "toggle-switch",
-      "switch:toggle"
+      "switch:toggle",
+      "to-toggle-switch"
     ],
     "body": [
       "<toggle-switch v-model=\"$1\"></toggle-switch>"
@@ -12,7 +13,8 @@
   "Toggle Switch With Text Snippet": {
     "prefix": [
       "toggle-switch-with-text",
-      "switch:toggle-with-text"
+      "switch:toggle-with-text",
+      "to-toggle-switch-with-text"
     ],
     "body": [
       "<toggle-switch",

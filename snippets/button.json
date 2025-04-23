@@ -3,7 +3,8 @@
     "prefix": [
       "wave-button:default",
       "wave-button:white",
-      "wave-button:reset_cancel"
+      "wave-button:reset_cancel",
+      "to-wave-button:default"
     ],
     "body": "<wave-button @click=\"handleClick\">{{\"$1\"}}</wave-button>",
     "description": "A wave-button with default style"
@@ -12,7 +13,8 @@
     "prefix": [
       "wave-button:primary",
       "wave-button:blue",
-      "wave-button:search"
+      "wave-button:search",
+      "to-wave-button:primary"
     ],
     "body": "<wave-button type=\"primary\" @click=\"handleClick\">{{\"$1\"}}</wave-button>",
     "description": "A wave-button with primary style"
@@ -21,7 +23,8 @@
     "prefix": [
       "wave-button:success",
       "wave-button:green",
-      "wave-button:sign up"
+      "wave-button:sign up",
+      "to-wave-button:success"
     ],
     "body": "<wave-button type=\"success\" @click=\"handleClick\">{{\"$1\"}}</wave-button>",
     "description": "A wave-button with success style"
@@ -30,7 +33,8 @@
     "prefix": [
       "wave-button:danger",
       "wave-button:red",
-      "wave-button:delete"
+      "wave-button:delete",
+      "to-wave-button:danger"
     ],
     "body": "<wave-button type=\"danger\" @click=\"handleClick\">{{\"$1\"}}</wave-button>",
     "description": "A wave-button with danger style"
@@ -38,7 +42,8 @@
   "Wavebutton (warning) Snippet": {
     "prefix": [
       "wave-button:warning",
-      "wave-button:orange"
+      "wave-button:orange",
+      "to-wave-button:warning"
     ],
     "body": "<wave-button type=\"warning\" @click=\"handleClick\">{{\"$1\"}}</wave-button>",
     "description": "A wave-button with warning style"

@@ -2,7 +2,8 @@
   "File Drop Area Snippet": {
     "prefix": [
       "file-drop-area",
-      "file-upload:drop-area"
+      "file-upload:drop-area",
+      "to-file-drop-area"
     ],
     "body": [
       "<file-drop-area v-model=\"$1\"",
@@ -17,7 +18,8 @@
   "Import Dialog Snippet": {
     "prefix": [
       "import-dialog",
-      "file-upload:import-dialog"
+      "file-upload:import-dialog",
+      "to-import-dialog"
     ],
     "body": [
       "<import-dialog",

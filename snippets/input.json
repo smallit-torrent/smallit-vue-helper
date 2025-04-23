@@ -2,7 +2,8 @@
   "Number Input Snippet": {
     "prefix": [
       "number-input",
-      "input:number"
+      "input:number",
+      "to-number-input"
     ],
     "body": [
       "<number-input v-model=\"$1\" placeholder=\"\" clearable @change=\"\">",
@@ -18,7 +19,8 @@
       "input:tel",
       "input:fax",
       "input:phone-number",
-      "phone-number-input"
+      "phone-number-input",
+      "to-tel-fax-input"
     ],
     "body": [
       "<el-form-item label=\"$1\" ref=\"\">",
@@ -39,7 +41,8 @@
   "Text Area Snippet": {
     "prefix": [
       "text-area",
-      "input:text-area"
+      "input:text-area",
+      "to-text-area"
     ],
     "body": [
       "<text-area v-model=\"$1\"",
@@ -52,7 +55,8 @@
   "Text Input Snippet": {
     "prefix": [
       "text-input",
-      "input:text"
+      "input:text",
+      "to-text-input"
     ],
     "body": [
       "<text-input v-model=\"$1\"></text-input>"
@@ -62,7 +66,8 @@
   "Zip Code Input Snippet": {
     "prefix": [
       "zip-code-input",
-      "input:zip-code"
+      "input:zip-code",
+      "to-zip-code-input"
     ],
     "body": [
       "<zip-code-input",

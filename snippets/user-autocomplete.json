@@ -1,7 +1,8 @@
 {
   "User Autocomplete Snippet": {
     "prefix": [
-      "user-autocomplete"
+      "user-autocomplete",
+      "to-user-autocomplete"
     ],
     "body": [
       "<user-autocomplete",

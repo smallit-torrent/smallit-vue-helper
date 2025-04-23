@@ -1,7 +1,8 @@
 {
   "Icon (ElementPlus or torrent) Snippet": {
     "prefix": [
-      "icon"
+      "icon",
+      "to-icon"
     ],
     "body": "<icon icon-name=\"$1\" />",
     "description": "icon (ElementPlus or torrent)"
@@ -9,7 +10,8 @@
   "Svg-Icon (torrent only) Snippet": {
     "prefix": [
       "icon:torrent-only",
-      "svg-icon"
+      "svg-icon",
+      "to-svg-icon"
     ],
     "body": "<svg-icon icon-class=\"$1\"/>",
     "description": "svg-icon (torrent only)"

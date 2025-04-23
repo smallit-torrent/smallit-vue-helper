@@ -1,7 +1,8 @@
 {
   "Date Picker Snippet": {
     "prefix": [
-      "date-picker"
+      "date-picker",
+      "to-date-picker"
     ],
     "body": [
       "<date-picker v-model=\"$1\"></date-picker>"
@@ -10,7 +11,8 @@
   },
   "Date Time Picker Snippet": {
     "prefix": [
-      "date-time-picker"
+      "date-time-picker",
+      "to-date-time-picker"
     ],
     "body": [
       "<date-time-picker v-model=\"$1\"></date-time-picker>"
@@ -19,7 +21,8 @@
   },
   "Date Time Picker Snippet No Seconds": {
     "prefix": [
-      "date-time-picker:no-seconds"
+      "date-time-picker:no-seconds",
+      "to-date-time-picker:no-seconds"
     ],
     "body": [
       "<date-time-picker v-model=\"$1\" no-seconds></date-time-picker>"
@@ -29,7 +32,8 @@
   "Month Picker Snippet": {
     "prefix": [
       "month-picker",
-      "date-picker:month only"
+      "date-picker:month only",
+      "to-month-picker"
     ],
     "body": [
       "<month-picker v-model=\"$1\"></month-picker>"
@@ -39,7 +43,8 @@
   "Time Picker Snippet": {
     "prefix": [
       "time-picker",
-      "date-picker:time only"
+      "date-picker:time only",
+      "to-time-picker"
     ],
     "body": [
       "<time-picker v-model=\"$1\"></time-picker>"
@@ -49,7 +54,8 @@
   "Time Picker Snippet No Seconds": {
     "prefix": [
       "time-picker-no-seconds",
-      "date-picker:time only without seconds"
+      "date-picker:time only without seconds",
+      "to-time-picker-no-seconds"
     ],
     "body": [
       "<time-picker v-model=\"$1\" no-seconds></time-picker>"

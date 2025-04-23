@@ -2,7 +2,8 @@
   "Tree Select Snippet": {
     "prefix": [
       "tree-select",
-      "select:tree"
+      "select:tree",
+      "to-tree-select"
     ],
     "body": [
       "<tree-select v-model=\"$1\" :tree-data=\"\" placeholder=\"\"></tree-select>"
